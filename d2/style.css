@@ -166,7 +166,7 @@ label, a{ /*при наведении на стрелки или переклю�
 /*Конец слайдера*/
 
 body {
- background-image: (bg.jpg) 
+ background-color: #DCDCDC; 
 }
 
 .center { /*Логотип по центру*/
@@ -175,7 +175,16 @@ body {
 }
 
 .text-center {
+  text-align: end;
+  font-size: 30px;
+  text-shadow: 3px 5px 6px #6C9;
   text-align: center;
+  font-style: italic;
+  }
+
+  .text-center2 {
+  text-align: center;
+
   }
 
 
@@ -183,5 +192,4 @@ body {
 h1 {
   color: red;
 }
-
 
