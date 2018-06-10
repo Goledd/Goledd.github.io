@@ -95,7 +95,7 @@ var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
 })('https://widget.replain.cc/dist/client.js');
 </script>
 
-
+<hr>
 <h1 class="text-center2" id="otz" " >Отзывы</h1>
 				
 <!-- Put this div tag to the place, where the Comments block will be -->
@@ -109,6 +109,8 @@ VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
 <br>
 <br>
 <br>
+
+<hr>
 
 <h1 class="text-center2" id="map">Карта</h1>
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="embedgooglemaps.com/ru">https://embedgooglemaps.com/ru/</a></small></div><div><small><a href="http://mrpromokod.ru/">https://mrpromokod.ru</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(52.4411761,30.98784610000007),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.4411761,30.98784610000007)});infowindow = new google.maps.InfoWindow({content:'<strong>map</strong><br>Gomel<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
