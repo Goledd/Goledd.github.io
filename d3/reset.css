@@ -1,0 +1,93 @@
+body{
+  background-color: #f6f6f6;
+  color: #2f2f2f;
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h2, .h2{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+p, .p{
+  font-size: 1em;
+}
+
+.stic{
+  font-size: 2em;
+}
+
+.wrapper{
+  width: 80%;
+  margin: 138px auto;
+  display: block;
+
+}
+
+.card{
+  min-width: 900px;
+  max-height: 804px;
+  background-color: #fff;
+}
+
+.phone{
+  width: 40%;
+  margin-left: -4px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5%;
+  vertical-align: middle;
+}
+
+.phone img{
+  width: 100%;
+  text-align:center;
+}
+
+.cardText{
+  width: 60%;
+  margin-left: -4px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5%;
+  vertical-align: middle;
+}
+
+.cardText h2{
+  margin-bottom: 5%;
+}
+
+.cardText p{
+  margin-bottom: 3%;
+}
+
+.price{
+  margin-bottom: 1.5%;
+}
+
+.stic{
+  margin-bottom: 2%;
+}
+
+
+.button a{
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 402px;
+  height: 79px;
+  box-sizing: border-box;
+  padding-top: 24px;
+  
+}
+
+.button{
+  background-color: #ec744a;
+  width: 402px;
+  height: 79px;
+  text-align: center;
+  margin-bottom: 28px;
+}
